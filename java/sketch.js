@@ -13,7 +13,7 @@ let smallPoint, largePoint;
 
 
 function preload() {
-  img = loadImage('../storm.jpg');
+  img = loadImage('storm.jpg');
 }
 
 function setup() {
@@ -61,7 +61,8 @@ function draw() {
       ellipse(a, b, pointillize, pointillize);
       //styles for the point
      ellipse(mouseX,mouseY,11);
-     
+
+}
 
 
 
@@ -75,7 +76,6 @@ function draw() {
 
 
 
-  }
 
 
   //image(graphics,0,0);
